@@ -11,7 +11,7 @@ export default function Layout() {
       <div>{<Navigation/>}</div>
       </div>
       <div className="flex items-center justify-around">
-      <div className="w-[70%]">{<Outlet/>}</div>
+      <div className="w-[70%] justify-center">{<Outlet/>}</div>
       <div className="w-[30%]">{<Sidebar/>}</div>
       </div>
       
