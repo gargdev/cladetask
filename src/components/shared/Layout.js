@@ -10,7 +10,7 @@ export default function Layout() {
       <div className="">
       <div>{<Navigation/>}</div>
       </div >
-      <div className="flex py-3 px-5 flex-col lg:flex-row p-4">
+      <div className="flex py-2 px-5 flex-col lg:flex-row p-4">
       <div className="w-[70%] justify-center">{<Outlet/>}</div>
        <div className="flex items-center">
             <div className="h-full border-l-2 border-gray-300"></div>
